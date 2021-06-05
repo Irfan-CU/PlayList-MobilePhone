@@ -1,0 +1,53 @@
+// ************This is the library for simple format guidance in Java Language****************** //
+
+
+    import java.util.Array;
+    import java.util.Scanner;
+    private static Scanner scanner = new Scanner(System.in);
+    value[i] = scanner.nextInt();
+
+Array:
+    int []myArray = new int [50] // array of size 50;
+    myArray[5] = 50; //6 element int he array = 50;
+    int []myArray = {0,1,2,3} //another way to intoduce and intiallize an arrya;
+    for(int i = 0;i<myArray.length;i++){myArray[i]=i*5}
+    int myArray[] = new int[number]//Size is number
+    public static int[] getIntegers(){int []value = new int [number]; return values}//A function to return array
+    getAverage(values)//array passes to the function getAverage;
+    public int getAverages(int[] values)
+    Scanner in Array
+
+ArrayList
+    private ArrayList<String> groecryList = new ArrayList<String>();
+    private ArrayList<Integer> groecryList = new ArrayList<Integer>(); // for storing integer
+
+    groceryList.add(item); add the item in the array
+    groceryList.get(position); // return the item at position which is index
+    groceryList.set(position, newItem);// replace the item at the position
+    groceryList.remove(position) // returns an element at the position
+    groceryList.contains(item)// return a boolean if the item is present in the array
+    groceryList.indexOf(item)  // return the index of the first occurence of the item; -1 is returned if list does not contain such an element
+    //Copying the items from groceryList array into the newArray.
+      ArrayList<String>newArray = new ArrayList<String>();
+      newArray.addAll(grocerlist.getgroceryList()) \\ getter in the groceryList class
+      ArrayList<String>newArray = new ArrayList<String>(grocerlist.getgroceryList()); \\ copies the groceryList into newArray
+    //converting an arrayList into an array
+    int [] newArray = new String[grocerlist.getgroceryList().size()];
+    newArray = grocerlist.getgroceryList().toArray(newArray);
+
+LinkedList:
+    LinkedList vs ArrayList:
+    Use linked list if we have lot of insertion and deletion operations and arraylist when we have to access the data at the specific indexes
+    LinkedList in Java is a double list with links in both forward and backward direcgion
+    Iterator<String> i = LinkeList.iterator(); // returns the iterator for the LinkedList
+    i.hasNext();//method to check if list has next element
+    i.next(); returns the value and move tthe iterator to the next value.
+    LinkedList.add(1,"Alice Springs");// add the city at the index 1 and adds link to previous/next element as well;
+    LinkedList.remove(1); // remove the element at index 1 and update the links;
+    ListIterator<String> st = LinkedList.listIterator();// provides more methods for specific operations on linked list with listIterator we need to use listIterator.next() to go the head of the list. this is different from the regular iterator
+    int comparison = LinkedList.next().compareTo(newCity);// compares the value in the list returned bu next with newCity and returns 0 if they are same and >0 (BrisBane,Adelaide comparison and <0 for reverse case) if they are different.
+    st.previous();// moves the list back to the previous iterator.
+    isEmpty();//method to check if list is empty;
+
+Shortcuts:
+    psvm: for creating a main method
